@@ -15,7 +15,7 @@ In this project I use such principles as OOP, SOLID, DI, REST.
 - Registration of a user `POST: /register`
 - Users and admins can be shown: cinema halls `GET: /cinema-halls`,
   available movie sessions `GET: /movie-sessions/available`,
-  movies `GET: /movies`, some specific movie session `GET: /movie-sessions/{id}`
+  movies `GET: /movies`, some specific movie session `GET: /movie-sessions/{id}`. Also, you can logout `GET: /logout`
 - Admins can add new cinema halls `POST: /cinema-halls`, movies `POST: /movies`,
 movie sessions `POST: /movie-sessions`
 - Admins can update and delete movie session `PUT: /movie-sessions/{id}`, 

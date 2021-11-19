@@ -1,6 +1,8 @@
 package yehor.zapara.spring.controller;
 
 import javax.validation.Valid;
+import org.springframework.security.core.Authentication;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,6 +20,11 @@ public class AuthenticationController {
     public AuthenticationController(AuthenticationService authService, UserMapper userMapper) {
         this.authService = authService;
         this.userMapper = userMapper;
+    }
+
+    @GetMapping
+    public String startPage(Authentication auth) {
+        return String.format("Hello %s, nice to see you in our movie service)", auth.getName());
     }
 
     @PostMapping("/register")
