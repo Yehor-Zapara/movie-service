@@ -1,5 +1,6 @@
 # Movie Service
-
+You can test this app following by [link](http://zapara-movie.herokuapp.com/). 
+Just look at items 7 and 8 in [Setup](#setup) for this.
 ## Table of Contents
 
 - [Description](#description)
