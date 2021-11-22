@@ -9,8 +9,9 @@ Just look at items 7 and 8 in [Setup](#setup) for this.
 - [Setup](#setup)
 
 ## Description
-The main purpose of this project is to show my skills in Java and its popular frameworks as Hibernate and Spring. 
-In this project I use such principles as OOP, SOLID, DI, REST.
+
+This application implements a service for buying cinema tickets. It uses such popular frameworks as Hibernate and Spring. 
+It implements such principles as SOLID, DI, REST.
 
 ## Features
 - Registration of a user `POST: /register`
